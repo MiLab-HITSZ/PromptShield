@@ -9,7 +9,7 @@
 
 This repository contains the supplementary code for the paper "PromptShield: Adversarial Prompt Tuning against Backdoor Attacks in Vision-Language Models".
 
-PromptShield introduces a novel backdoor purification framework based on adversarial prompt tuning, designed to provide universal, transferable, and efficient defense for multimodal models in real world deployment. PromptShield is the first framework to demonstrate robust defense across various attacks and datasets while supporting prompt-free deployment, oneering a "one training, multiple deployments" paradigm. It requires only a single training phase to enable deployment across different attacks and datasets without additional fine-tuning. 
+PromptShield introduces a novel backdoor purification framework based on adversarial prompt tuning, designed to provide universal, transferable, and efficient defense for multimodal models in real world deployment. PromptShield is the first framework to demonstrate robust defense across various attacks and datasets while supporting prompt-free deployment, pioneering a "one training, multiple deployments" paradigm. It requires only a single training phase to enable deployment across different attacks and datasets without additional fine-tuning. 
 
 
 
