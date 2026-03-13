@@ -1,0 +1,20 @@
+Blended:
+  attack_type: Blended
+  target_label: 0
+  poisoned_rate: 0.1
+  # trigger
+  pattern_path: 'datasets/triggers/hellokitty_32.png'
+  W: 224
+  H: 224
+  # (16, 1.0)
+  pieces: 16
+  mask_rate: 0.5
+  # asymmetric design:The trigger uses different transparency during the training phase and testing phase.
+  alpha: 0.10
+  patch_type: blended
+  patch_location: blended
+
+
+ 
+  
+

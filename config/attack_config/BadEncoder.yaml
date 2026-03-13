@@ -1,0 +1,16 @@
+BadEncoder:
+  attack_type: BadEncoder
+  target_label: 0
+  poisoned_rate: 0.10
+  weight: 1.0
+  patch_type: Badnet
+  W: 224
+  H: 224
+  patch_size: 64
+  lambda1: 1.0
+  lambda2: 1.0
+
+  patch_location: blended
+
+
+

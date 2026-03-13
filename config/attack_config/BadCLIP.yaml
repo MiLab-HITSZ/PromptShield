@@ -1,0 +1,17 @@
+BadCLIP:
+  attack_type: BadCLIP
+  target_label: 954
+  size_train_data: 500000 
+  num_backdoor: 1500
+  poisoned_rate: 0.10
+  label: banana 
+  W: 224
+  H: 224
+  patch_name: datasets/opti_patches/badCLIP.jpg 
+  patch_size: 16
+  scale: null
+  patch_location: middle
+
+
+
+  

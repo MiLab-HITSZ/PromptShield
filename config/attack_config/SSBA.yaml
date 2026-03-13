@@ -1,0 +1,27 @@
+SSBA:
+  attack_type: SSBA
+  dataset_name: null
+
+  secret_size: 20
+  train_steg_set: null
+  target_label: 0
+  # 0.05, 0.1, 0.15, 0.20
+  poisoned_rate: 0.10
+  patch_location: blended
+  
+  encoder: null
+  decoder: null
+  #  None
+  encoder_path: model/encoder_decoder.pth
+  encoder_schedule:
+    secret_size: 20
+    enc_height: 224
+    enc_width: 224
+    enc_in_channel: 3
+    # 20
+    enc_total_epoch: 20
+    enc_secret_only_epoch: 2
+    enc_use_dis: False
+
+  
+

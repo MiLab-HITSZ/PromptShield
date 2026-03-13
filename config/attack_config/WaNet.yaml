@@ -1,0 +1,14 @@
+WaNet:
+  attack_type: WaNet
+  target_label: 0
+  poisoned_rate: 0.10
+  identity_grid: null
+  height: 224
+  k: 112
+  s: 1.0
+  noise_grid: null
+  # True
+  noise: False
+  patch_location: blended
+
+

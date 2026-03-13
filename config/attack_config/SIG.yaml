@@ -1,0 +1,10 @@
+SIG:
+  attack_type: SIG
+  target_label: 3
+  poisoned_rate: 0.10
+  delta: 60
+  frequency: 6
+  W: 224
+  H: 224
+  patch_location: blended
+
